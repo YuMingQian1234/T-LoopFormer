@@ -1,4 +1,4 @@
-# LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation (ICLR 2026)
+# T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing
 
 <a target="_blank" href="">
   <img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
@@ -18,7 +18,7 @@
 
 ---
 
-This repository contains the official implementation of **LoopFormer**.
+This repository contains the official implementation of **T-LoopFormer**.
 
 The codebase is a fork of **NanoGPT**, and we intentionally keep it as close as possible to the original implementation for clarity and reproducibility. Beyond the looped / elastic-depth components, the main architectural difference is using **RMSNorm** instead of **LayerNorm**.
 
