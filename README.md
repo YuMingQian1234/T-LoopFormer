@@ -1,21 +1,5 @@
 # T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing
 
-<a target="_blank" href="">
-  <img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
-</a>
-<a target="_blank" href="https://loopformer.github.io/">
-  <img style="height:22pt" src="https://img.shields.io/badge/-🌐%20Website-blue?style=flat">
-</a>
-<a target="_blank" href="https://huggingface.co/collections/armenjeddi/loopformer">
-  <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Models-red?style=flat">
-</a>
-
-**Authors:**  
-[Ahmadreza Jeddi](https://armenjeddi.github.io/), [Marco Ciccone](https://marcociccone.github.io/), [Babak Taati](https://www.cs.toronto.edu/~taati/)
-<br>
-
-![LoopFormer](assets/loopformer.png)
-
 ---
 
 This repository contains the official implementation of **T-LoopFormer**.
@@ -30,16 +14,4 @@ The codebase is a fork of **NanoGPT**, and we intentionally keep it as close as 
 pip install torch numpy transformers datasets tiktoken wandb tqdm
 ```
 
-## Citation
-If you find this work useful, please give us a citation:
-```bibtex
-@misc{jeddi2026loopformerelasticdepthloopedtransformers,
-      title={LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation}, 
-      author={Ahmadreza Jeddi and Marco Ciccone and Babak Taati},
-      year={2026},
-      eprint={2602.11451},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.11451}, 
-}
-```
+
