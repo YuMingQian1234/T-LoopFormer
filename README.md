@@ -13,5 +13,8 @@ The codebase is a fork of **NanoGPT**, and we intentionally keep it as close as 
 ```bash
 pip install torch numpy transformers datasets tiktoken wandb tqdm
 ```
-
+## Training
+```bash
+torchrun --standalone --nproc_per_node=6 train.py
+```
 
