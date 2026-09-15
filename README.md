@@ -18,6 +18,7 @@ pip install torch numpy transformers datasets tiktoken wandb tqdm
 torchrun --standalone --nproc_per_node=6 train.py
 ```
 ## Cite
+```bash
 @misc{yu2026tloopformertokenlevelelasticdepthlooped,
       title={T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning With Dynamic Routing}, 
       author={Mingqian Yu and Wenpeng Zhang and Peilin Zhao},
@@ -27,3 +28,4 @@ torchrun --standalone --nproc_per_node=6 train.py
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2609.15160}, 
 }
+```
