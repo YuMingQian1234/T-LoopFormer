@@ -1,4 +1,4 @@
-# T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing
+# T-LoopFormer: Token-Level Elastic-Depth Looped Transformers with Dynamic Routing
 
 ---
 
